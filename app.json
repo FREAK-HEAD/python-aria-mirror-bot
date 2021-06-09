@@ -1,0 +1,114 @@
+{
+    "name": "mirrorspeed4 ",
+    "description": "Telegram mirror bot with python",
+    "logo": "https://telegra.ph/file/d186e416813354d3db320.jpg",
+    "keywords": [
+      "bot",
+      "telegram",
+      "python"
+    ],
+    "repository": "https://github.com/FREAK-HEAD/custom-aria",
+    "website": "https://t.me/Reaper_OX",
+    "success_url": "https://github.com/lzzy12/python-aria-mirror-bot/blob/master/README.md",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "value": "1793528685:AAFiLpzKNAEWeS4oq71pe9uqPkQch_8noxA",
+        "required": true
+      },
+      "GDRIVE_FOLDER_ID": {
+        "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+        "value": "1813598660:AAGJgN4BfM4zHyx5fHmayEy6XczHtQhaMxU",
+        "required": true
+      },
+      "DOWNLOAD_DIR": {
+        "description": "The path to the local folder where the downloads should be downloaded to.",
+        "value": "/home/slam/mirror-bot/downloads",
+        "required": false
+      },
+      "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+        "description": "A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it 5 seconds at least).",
+        "value": "5",
+        "required":false
+      },
+      "OWNER_ID": {
+        "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
+        "value": "1889810892",
+        "required": true
+      },
+      "AUTO_DELETE_MESSAGE_DURATION": {
+        "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
+        "value": "-1",
+        "required": true
+      },
+      "IS_TEAM_DRIVE": {
+        "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+        "value": "True",
+        "required": false
+      },
+      "USE_SERVICE_ACCOUNTS": {
+        "description": "Whether to use service accounts or not. For this to work see 'Using service accounts' in repo.",
+        "value": "False",
+        "required": false
+      },
+      "AUTHORIZED_CHATS": {
+        "description": "Fill User ID and Chat ID of you want to authorize.",
+        "value": "-1001214066775",
+        "required": false
+      },
+      "INDEX_URL": {
+        "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
+        "value": "https://faris.abulfa.workers.dev/0:",
+        "required": false
+      },
+      "TELEGRAM_API": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "4397955",
+        "required": true
+      },
+      "TELEGRAM_HASH": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "8b3ceb8e5b00b7e8f965d8f68b6d61a8",
+        "required": true
+      },
+      "MEGA_KEY": {
+        "description": "Mega.nz api key to mirror mega.nz links. Get it from https://mega.nz/sdk.",
+        "value": "xoA3mSDQ",
+        "required": false
+      },
+      "MEGA_EMAIL_ID": {
+        "description": "Your email id you used to sign up on mega.nz.",
+        "value": "gdrgdr911@gmail.com",
+        "required": false
+      },
+      "MEGA_PASSWORD": {
+        "description": "Your password for your mega.nz account.",
+        "value": "masha_allah00",
+        "required": false
+      },
+      "BLOCK_MEGA_FOLDER": {
+        "description": "If you want to remove mega.nz folder support, set it to True.",
+        "required": false
+      },
+      "BLOCK_MEGA_LINKS": {
+        "description": "If you want to remove mega.nz mirror support, set it to True.",
+        "required": false
+      },
+      "STOP_DUPLICATE_MIRROR": {
+        "description": "If this field is set to True, bot will check file in drive, if it is present in drive, downloading will be stopped.",
+        "value" : "false",
+        "required": false
+      },
+      "USER_SESSION_STRING": {
+        "description": "If you want to use shortener in Gdrive and index link.",
+        "value" : "AQCRKp25tf_vXnLl51EBEKtL9uFB8SxyIMEnKIReSLwxGG87T--8HFv8dc01g7khmjBrsQQ_SS5fVb4yaxTspPwS2O-ONau9BcRiK6fSrCmgsSoSgAM36gXS5TU1I1WPNtbuQikVUu0ARPQoxiNgQzgknAZjRoyiHPptmBqPfhSLchhgXkTfOlV7DteEmuTfrhr8mD1l5Q-aBmtWA9CnBKWGbaicHpjwUnbjEvx6b4mAnexUEIwEmJgD4DgNbSx3pBj1CkWaPApnPiuTVzB8goMD60cnYw5KTiZk_S_7adFpOyap4gmfBsEG234UORVufv5oV6tAbrH9l7__iPbA5Ej2cKQ5zAA",
+        "required": false
+
+      }
+    }
+}
