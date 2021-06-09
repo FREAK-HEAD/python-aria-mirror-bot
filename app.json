@@ -23,7 +23,7 @@
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
-        "value": "1813598660:AAGJgN4BfM4zHyx5fHmayEy6XczHtQhaMxU",
+        "value": "1ObNwD77-eHqczy_qzZ89VcYveDWqb98r",
         "required": true
       },
       "DOWNLOAD_DIR": {
@@ -81,7 +81,7 @@
         "value": "xoA3mSDQ",
         "required": false
       },
-      "MEGA_EMAIL_ID": {
+      "MEGA_USERNAME": {
         "description": "Your email id you used to sign up on mega.nz.",
         "value": "gdrgdr911@gmail.com",
         "required": false
